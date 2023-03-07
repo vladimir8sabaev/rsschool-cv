@@ -1,6 +1,6 @@
 # Vladimir Sabaev
 
-## Contacts:
+## Contacts
 
 ---
 
@@ -10,7 +10,7 @@
 - **Telegram:** [vladimirsabaev](https://t.me/vladimirsabaev)
 - **VK:** [vladimirsabaev](https://vk.com/vladimirsabaev)
 
-## About section:
+## About section
 
 ---
 
@@ -35,17 +35,39 @@
 
 ## Code example
 
-```
-async function stockData() {
-		const data = await ky.get("http://localhost:3000/switches").json();
-		const switchName = data.map(function (item) {
-			return item.name;
-		});
-		const switchNoise = data.map(function (item) {
-			return item.noise;
-		});
-		const switchFeeling = data.map(function (item) {
-			return item.feeling;
-		});
-}
-```
+    async function stockData() {
+    const data = await ky.get("http://localhost:3000/switches").json();
+    const switchName = data.map(function (item) {
+    return item.name;
+    });
+    const switchNoise = data.map(function (item) {
+    return item.noise;
+    });
+    const switchFeeling = data.map(function (item) {
+    return item.feeling;
+    });
+    }
+
+## Education
+
+---
+
+- **Bauman Moscow State University**
+  - radio electronic systems and complexes (RL1)
+- **Udemy**
+  - [HTML/CSS](https://www.udemy.com/course/webdeveloper/)
+  - [JS](https://www.udemy.com/course/javascript_full/)
+
+## Projects
+
+---
+
+1. [Ulprodlenka website](https://github.com/vladimir8sabaev/ulprodlenka) -
+   kids club responsive website made with love and Bootstrap, jQuery for my mom
+2. [Music](https://github.com/vladimir8sabaev/music) - desktop website with different music genres made for improving DOM manipulating skills
+3. [Mechboard](https://github.com/vladimir8sabaev/mechBoard) - desktop website about mechanical keyboards (i am a fan of them). There are some new tech for me: fetch with ky library, charts with chart JS, ES6 modules, webpack as a bundler and gulp-replacer, pure JS slider, animations on dynamically added elements
+
+## Languages
+
+- Russian as my native Languages
+- English B2 with FCE certificate
